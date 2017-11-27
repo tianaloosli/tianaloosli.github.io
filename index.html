@@ -1,8 +1,132 @@
-<!DOCTYPE html>
-<html>
 
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Title</title>
+    
+
+
+</head>
 <body>
-Hello world, my name is T.
-</body>
+  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 
-</html> 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+  
+    h1{
+        font-family: 'Andale Mono';
+        letter-spacing: 0px;
+        font-size: 55px;
+        color: #6848DD;
+    }
+
+   
+
+body {
+    font-family: Futura;
+    font-size: 30px;
+    letter-spacing: 1px;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    background: #F4F4F4;
+    color: #454545;
+}
+
+a{
+    color:#ABABAB;
+    text-decoration: none;
+}
+
+.lineurl {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 3px;
+}
+.lineurl:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 0;
+    transition: width 0s ease, background .5s ease;
+}
+.lineurl:after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 3px;
+    width: 0;
+    background: #6848DD;
+    transition: width .5s ease;
+}
+.lineurl:hover:before {
+    width: 100%;
+    background: #6848DD;
+    transition: width .5s ease;
+}
+.lineurl:hover:after {
+    width: 100%;
+    background: transparent;
+    transition: all 0s ease;
+}
+
+.allink {
+    color: #454545;
+    text-decoration: underline;
+    text-decoration-style:dotted;
+    text-decoration-color: #F7DF4A;
+    -webkit-transition: color .5s linear;
+  -moz-transition: color .5s linear;
+  -ms-transition: color .5s linear;
+  -o-transition: color .5s linear;
+  transition: color .5s linear;
+}
+
+.allink:hover {
+    color: #909090;
+  
+}
+   .center-div
+{
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 70%;
+  height: 70%;
+} 
+
+</style>
+
+
+
+<div class="center-div">
+    <h1>Work in Progress...</h1> 
+    I am currently working on making a kick-ass portfolio! In the mean time, 
+    feel free to drop me an <a class="lineurl" href="mailto:tianasoa@naver.com?subject=✨Let's talk!">email</a> 
+    or message me over on <a class="lineurl" href="http://twitter.com/@tianaloosli" target="_blank">Twitter</a>.</br>
+<a href="https://www.youtube.com/watch?v=1Hb66FH9AzI" class="allink" target="_blank">See you later</a> 🐊
+<p style="text-align:right">— Tiana Loosli</p>
+
+
+</div>
+
+</body>
+</html>
